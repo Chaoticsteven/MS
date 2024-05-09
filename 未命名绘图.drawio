@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T12:34:52.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="qHKu4YOX_DQJnw7oBAKT" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T10:16:19.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="dhD7YIuyh2E3P1Vc73SE" version="24.3.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2069" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3085" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,52 +201,6 @@
             <mxPoint x="520" y="160" as="sourcePoint" />
             <mxPoint x="600" y="160" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZPE5ZwEm5JQT3JPqB8p0-1" target="ZPE5ZwEm5JQT3JPqB8p0-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-1" value="记录节点到达时间" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-595" y="630" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ZPE5ZwEm5JQT3JPqB8p0-2" target="ZPE5ZwEm5JQT3JPqB8p0-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-8" value="白天水下航态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZPE5ZwEm5JQT3JPqB8p0-4" vertex="1" connectable="0">
-          <mxGeometry x="-0.24" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZPE5ZwEm5JQT3JPqB8p0-2" target="ZPE5ZwEm5JQT3JPqB8p0-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-11" value="夜晚水上航态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZPE5ZwEm5JQT3JPqB8p0-10" vertex="1" connectable="0">
-          <mxGeometry x="-0.424" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-2" value="根据时间判断航态" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-600" y="730" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZPE5ZwEm5JQT3JPqB8p0-3" target="ZPE5ZwEm5JQT3JPqB8p0-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-3" value="检测水下静态障碍区" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-595" y="870" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZPE5ZwEm5JQT3JPqB8p0-9" target="ZPE5ZwEm5JQT3JPqB8p0-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-9" value="检查水上静态障碍区、威胁区、气象区" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="740" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZPE5ZwEm5JQT3JPqB8p0-12" target="ZPE5ZwEm5JQT3JPqB8p0-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-12" value="根据危险等级决定是否通过" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="820" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZPE5ZwEm5JQT3JPqB8p0-15" value="完成该点的一条出边的搜素" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
